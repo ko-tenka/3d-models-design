@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Spline from '@splinetool/react-spline';
 import './uiploshadka.css';
 import Preloader from '../../components/Preloader/Preloader'; // Импортируй свой компонент Preloader
