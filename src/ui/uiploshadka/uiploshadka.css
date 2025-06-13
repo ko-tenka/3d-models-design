@@ -24,7 +24,7 @@
   
   @media (max-width: 768px) {
     .uiploshadka__wrapper {
-      height: 50vh; /* Уменьшаем высоту */
+      height: 80vh; /* Уменьшаем высоту */
     }
   }
   
