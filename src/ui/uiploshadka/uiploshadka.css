@@ -1,0 +1,31 @@
+.uiploshadka__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .uiploshadka__wrapper canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .uiploshadka__text {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .uiploshadka__wrapper {
+      height: 50vh; /* Уменьшаем высоту */
+    }
+  }
+  
+  
